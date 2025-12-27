@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🤖 AI Career Coach
 
-## Getting Started
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Status: MVP](https://img.shields.io/badge/Status-MVP-orange?style=flat-square)](#-project-status)
+[![Deployment: Vercel](https://img.shields.io/badge/Deployment-Vercel-black?style=flat-square&logo=vercel)](https://vercel.com/)
 
-First, run the development server:
+An **AI-powered career guidance platform** designed to help students and early professionals navigate the complexities of the modern job market. By utilizing personalized roadmaps and AI-driven insights, we help bridge the gap between confusion and a clear career path.
+
+---
+
+## 🌟 Why This Project?
+
+Many students feel **confused, overwhelmed, or misled** about career choices. This project acts as a **clear, honest, AI-backed career companion** — providing structured paths instead of generic advice.
+
+---
+
+## 🚀 Key Features
+
+### 🎯 Current Capabilities
+- **Personalized Suggestions:** Tailored career path recommendations based on user input.
+- **Tech Roadmaps:** Curated learning paths for roles like AI/ML, Web Development, and DevOps.
+- **Modern UI:** Clean, responsive interface built with Next.js and Geist Sans/Mono.
+
+### 🧠 Roadmap (In-Progress)
+- [ ] **AI Skill Gap Analysis:** Automatically identify what you need to learn next.
+- [ ] **Interactive AI Coach:** A chat-based assistant for real-time guidance.
+- [ ] **Resume Scanner:** AI-driven feedback on how to improve your CV for specific roles.
+- [ ] **User Authentication:** Save your progress and customized roadmaps.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js 14+](https://nextjs.org/) (App Router)
+- **Library:** [React](https://reactjs.org/)
+- **Styling:** CSS Modules / Tailwind CSS (Optional/Planned)
+- **Typography:** [Geist](https://vercel.com/font) (Next/font)
+- **Future:** AI/ML Integration (OpenAI/Gemini API), Clerk/NextAuth (Authentication)
+
+---
+
+## ⚙️ Getting Started
+
+First, clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/MousamCodes/ai-career-coach.git](https://github.com/MousamCodes/ai-career-coach.git)
+cd ai-career-coach
+npm install
