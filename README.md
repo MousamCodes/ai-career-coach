@@ -47,3 +47,26 @@ First, clone the repository and install the dependencies:
 git clone [https://github.com/MousamCodes/ai-career-coach.git](https://github.com/MousamCodes/ai-career-coach.git)
 cd ai-career-coach
 npm install
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+🛠 Tech Stack
+- **Framework:** Next.js (App Router)
+- **UI:** React & Geist Font
+- **Deployment:** Vercel
+- **Future:** AI Model Integration (Gemini/OpenAI)
+
+📁 Structure
+- `app/`: Routing & Pages
+- `components/`: UI Elements
+- `public/`: Assets
+- `styles/`: Global CSS
+
+🤝 Contributing
+1. Fork the repo
+2. Create feature branch (`git checkout -b feature/name`)
+3. Commit changes (`git commit -m 'Add feature'`)
+4. Push & Open a Pull Request
+
+ 📧 Contact
+**Mousam** - [mpoddervis@gmail.com](mailto:mpoddervis@gmail.com)  
+**Project:** [github.com/MousamCodes/ai-career-coach](https://github.com/MousamCodes/ai-career-coach)
